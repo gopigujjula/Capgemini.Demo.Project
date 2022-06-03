@@ -1,0 +1,36 @@
+﻿@using Capgemini.Demo.Project.Models;
+@model CarouselModel
+
+@if (Model != null && Model.Slides != null && Model.Slides.Count > 0)
+{
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                @for (int counter = 0; counter < Model.Slides.Count; counter++)
+                {
+                    var activeClass = counter == 0 ? "active" : string.Empty;
+                    <li data-target="#header-carousel" data-slide-to="@counter" class="@activeClass"></li>
+
+                }
+            </ol>
+            <div class="carousel-inner">
+                @for (var counter = 0; counter < Model.Slides.Count; counter++)
+                {
+                    var activeClass = counter == 0 ? "active" : string.Empty;
+                    <div class="carousel-item @activeClass">
+                        @Model.Slides[counter].Image
+                        <div class="carousel-caption d-flex align-items-center justify-content-center">
+                            <div class="p-5" style="width: 100%; max-width: 900px;">
+                                <h5 class="text-primary text-uppercase mb-md-3">@Model.Slides[counter].Title</h5>
+                                <h1 class="display-3 text-white mb-md-4">@Model.Slides[counter].SubTitle</h1>
+                                @Model.Slides[counter].Link
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->    
+}

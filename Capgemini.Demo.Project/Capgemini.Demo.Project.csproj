@@ -173,10 +173,13 @@
     <Content Include="Views\Klean\KleanLayout.cshtml" />
     <Content Include="Views\Klean\Components\AboutComponent.cshtml" />
     <Content Include="Views\Klean\Components\Testimonial.cshtml" />
+    <Content Include="Views\Klean\Components\Carousel.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\CarouselController.cs" />
     <Compile Include="Controllers\TestimonialController.cs" />
+    <Compile Include="Models\CarouselModel.cs" />
     <Compile Include="Models\TestimonialModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -193,7 +196,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="App_Start\" />
-    <Folder Include="Views\Testimonial\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
