@@ -45,6 +45,15 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Win32.Primitives" />
+    <Reference Include="Sitecore.Buckets, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Buckets.10.2.0\lib\net48\Sitecore.Buckets.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.ContentSearch.10.2.0\lib\net48\Sitecore.ContentSearch.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch.Linq, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.ContentSearch.Linq.10.2.0\lib\net48\Sitecore.ContentSearch.Linq.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel, Version=17.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.Kernel.10.2.0\lib\net48\Sitecore.Kernel.dll</HintPath>
     </Reference>
@@ -137,6 +146,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="assets\klean\lib\owlcarousel\LICENSE" />
+    <Content Include="App_Config\Include\Project\Klean.CustomLinkProvider.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Config\Include\Project\Klean.CustomItemResolver.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="Properties\PublishProfiles\Capgemini Deploy.pubxml" />
     <Content Include="assets\klean\css\style.css" />
     <Content Include="assets\klean\css\style.min.css" />
@@ -174,11 +189,15 @@
     <Content Include="Views\Klean\Components\AboutComponent.cshtml" />
     <Content Include="Views\Klean\Components\Testimonial.cshtml" />
     <Content Include="Views\Klean\Components\Carousel.cshtml" />
+    <Content Include="Views\Klean\Components\HeaderNavigation.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\CarouselController.cs" />
     <Compile Include="Controllers\TestimonialController.cs" />
+    <Compile Include="Custom\CustomItemResolver.cs" />
+    <Compile Include="Custom\CustomItemUrlBuilder.cs" />
+    <Compile Include="Extensions\ItemExtensions.cs" />
     <Compile Include="Models\CarouselModel.cs" />
     <Compile Include="Models\TestimonialModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,0 +1,21 @@
+﻿@using Sitecore.Links
+@using Sitecore.Links.UrlBuilders
+@using Capgemini.Demo.Project.Extensions
+@{
+    var homeItem = Sitecore.Context.Database.GetItem(Sitecore.Context.Site.StartPath);
+    ItemUrlBuilderOptions options = new ItemUrlBuilderOptions();
+    //options.AlwaysIncludeServerUrl = true;
+    //options.LanguageEmbedding = LanguageEmbedding.Always;
+}
+
+@if (homeItem != null && homeItem.Children != null)
+{
+    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+        <div class="navbar-nav mr-auto py-0">
+            @foreach (Sitecore.Data.Items.Item item in homeItem.Children)
+            {
+                <a href="@LinkManager.GetItemUrl(item, options)" class="nav-item nav-link">@item.Name</a>
+            }
+        </div>
+    </div>
+}
