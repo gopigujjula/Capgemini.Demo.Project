@@ -1,0 +1,26 @@
+﻿---
+ID: "5e3a3456-dbfc-4979-831a-c91900521c80"
+Parent: "3e3bf21b-5cb7-4a82-a7e5-7af2e8386f31"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Project/Klean/About us
+DB: master
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/Klean/Components/AboutComponent.cshtml
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{4DBC52E4-FEE2-43D1-B4CC-E073719EF545}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220531T104834Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

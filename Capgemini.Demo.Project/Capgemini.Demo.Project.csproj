@@ -195,6 +195,9 @@
     <Content Include="App_Config\Include\Klean.Unicorn.Serialization.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="App_Config\Include\Klean.Unicorn.PhysicalStore.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="Properties\PublishProfiles\Capgemini Deploy.pubxml" />
     <Content Include="assets\klean\css\style.css" />
     <Content Include="assets\klean\css\style.min.css" />

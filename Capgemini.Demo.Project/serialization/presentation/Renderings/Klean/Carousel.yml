@@ -1,0 +1,39 @@
+﻿---
+ID: "04095511-28ee-4de3-b948-7276ce4ba098"
+Parent: "3e3bf21b-5cb7-4a82-a7e5-7af2e8386f31"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Project/Klean/Carousel
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Project/Klean/Data Templates/Carousel
+- ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
+  Hint: Page Editor Buttons
+  Type: Treelist
+  Value: "{27435D0B-BC34-413E-B514-0CF2A30826DA}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: /sitecore/content/Klean/Data/Carousel
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{57107F8D-B863-4EF5-8B8E-6C799A185709}" />
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: Index
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Capgemini.Demo.Project.Controllers.CarouselController,Capgemini.Demo.Project
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220602T093455Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
