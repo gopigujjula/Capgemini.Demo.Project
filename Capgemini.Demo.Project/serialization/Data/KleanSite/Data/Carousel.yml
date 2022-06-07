@@ -1,0 +1,14 @@
+﻿---
+ID: "fde5d785-fcd2-4c45-b1cd-dc6b6392c862"
+Parent: "56d14081-6b3b-4809-99d9-438e2dc657b4"
+Template: "0afef3ed-80c1-40b7-88ba-522d75989122"
+Path: /sitecore/content/Klean/Data/Carousel
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220602T090000Z

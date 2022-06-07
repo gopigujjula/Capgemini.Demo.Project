@@ -1,0 +1,14 @@
+﻿---
+ID: "6b6584a3-8976-43ea-934c-50291185a108"
+Parent: "56d14081-6b3b-4809-99d9-438e2dc657b4"
+Template: "79e13831-8647-46e0-9d01-c6f3ef0bbbdf"
+Path: /sitecore/content/Klean/Data/Testimonials
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220601T090615Z

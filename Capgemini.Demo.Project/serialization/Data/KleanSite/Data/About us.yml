@@ -1,0 +1,14 @@
+﻿---
+ID: "a206cdc1-ed20-4767-8708-f798f13829fa"
+Parent: "56d14081-6b3b-4809-99d9-438e2dc657b4"
+Template: "b8e14e1f-b2d1-4289-8b84-76ca4f63e98f"
+Path: /sitecore/content/Klean/Data/About us
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220531T103300Z
