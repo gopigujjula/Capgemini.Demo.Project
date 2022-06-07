@@ -1,0 +1,18 @@
+﻿---
+ID: "2e53fc3e-15bb-4233-b337-6545ea3021a5"
+Parent: "6d6bb720-b272-4dca-af7d-8acbcdfc24a5"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/Klean/Setting Templates
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220531T091044Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

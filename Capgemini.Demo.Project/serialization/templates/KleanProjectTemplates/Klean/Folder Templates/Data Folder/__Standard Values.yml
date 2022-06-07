@@ -1,0 +1,27 @@
+﻿---
+ID: "53d42d66-da96-4039-a0b5-99b7a27e30fe"
+Parent: "6f222b59-d54a-45dc-93a7-915889284f81"
+Template: "6f222b59-d54a-45dc-93a7-915889284f81"
+Path: /sitecore/templates/Project/Klean/Folder Templates/Data Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {B8E14E1F-B2D1-4289-8B84-76CA4F63E98F}
+    {79E13831-8647-46E0-9D01-C6F3EF0BBBDF}
+    {0AFEF3ED-80C1-40B7-88BA-522D75989122}
+    {3A2EC7E5-D291-4583-B430-24EB63F27C7D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220531T091411Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,25 @@
+﻿---
+ID: "41537fbf-6cf7-41cb-889e-9bd6a3ba0ae1"
+Parent: "79e13831-8647-46e0-9d01-c6f3ef0bbbdf"
+Template: "79e13831-8647-46e0-9d01-c6f3ef0bbbdf"
+Path: /sitecore/templates/Project/Klean/Folder Templates/Testimonial Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {877C1A34-B65E-4690-A06E-2DA474F2F981}
+    {79E13831-8647-46E0-9D01-C6F3EF0BBBDF}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220601T090510Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

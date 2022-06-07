@@ -1,0 +1,25 @@
+﻿---
+ID: "ca7b53e8-45fd-4168-b7bb-f276b8409d6f"
+Parent: "d540c9d4-6945-44d6-8923-c46f404709ba"
+Template: "d540c9d4-6945-44d6-8923-c46f404709ba"
+Path: /sitecore/templates/Project/Klean/Data Templates/Slide/__Standard Values
+DB: master
+SharedFields:
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{05BBD4D8-652C-45FC-B044-2A3129A15700}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220602T085326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "743fa9ce-2fb2-4bfe-9e5f-2530867a218f"
+      Hint: Slide Title
+      Value: $name
