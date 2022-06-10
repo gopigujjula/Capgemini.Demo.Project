@@ -190,6 +190,15 @@
     <Content Include="App_Config\Include\Klean.Unicorn.PhysicalStore.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="App_Config\Include\Project\Klean.Web.ComputedIndexFields.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Config\Include\Project\Klean.ContentSearch.Solr.Index.Web.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Config\Include\Project\Spark.ContentSearch.Solr.Index.Web.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="Properties\PublishProfiles\Capgemini Deploy.pubxml" />
     <Content Include="assets\klean\css\style.css" />
     <Content Include="assets\klean\css\style.min.css" />
@@ -231,11 +240,14 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ComputedFields\AuthorNameComputedField.cs" />
+    <Compile Include="Controllers\BookController.cs" />
     <Compile Include="Controllers\CarouselController.cs" />
     <Compile Include="Controllers\TestimonialController.cs" />
     <Compile Include="Custom\CustomItemResolver.cs" />
     <Compile Include="Custom\CustomItemUrlBuilder.cs" />
     <Compile Include="Extensions\ItemExtensions.cs" />
+    <Compile Include="Models\BookSearchResultItem.cs" />
     <Compile Include="Models\CarouselModel.cs" />
     <Compile Include="Models\TestimonialModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -253,6 +265,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="App_Start\" />
+    <Folder Include="Views\Book\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

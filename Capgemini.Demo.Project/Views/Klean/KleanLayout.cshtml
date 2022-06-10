@@ -1,5 +1,7 @@
 ﻿@using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc.Analytics.Extensions
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,6 +26,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="~/assets/klean/css/style.css" rel="stylesheet" />
+    @Html.Sitecore().VisitorIdentification()
 </head>
 
 <body>
